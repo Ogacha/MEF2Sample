@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEFSample", "MEFSample\MEFSample.csproj", "{E5FC3CE7-DCA2-471A-A19D-17724134B75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinContract", "AddinContract\AddinContract.csproj", "{9470507B-C96F-4355-B870-F39C5E57F1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinA", "AddinA\AddinA.csproj", "{6DA89B85-9439-4654-B306-5773F1C98978}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5FC3CE7-DCA2-471A-A19D-17724134B75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FC3CE7-DCA2-471A-A19D-17724134B75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FC3CE7-DCA2-471A-A19D-17724134B75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FC3CE7-DCA2-471A-A19D-17724134B75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9470507B-C96F-4355-B870-F39C5E57F1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9470507B-C96F-4355-B870-F39C5E57F1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9470507B-C96F-4355-B870-F39C5E57F1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9470507B-C96F-4355-B870-F39C5E57F1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA89B85-9439-4654-B306-5773F1C98978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA89B85-9439-4654-B306-5773F1C98978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA89B85-9439-4654-B306-5773F1C98978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA89B85-9439-4654-B306-5773F1C98978}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
