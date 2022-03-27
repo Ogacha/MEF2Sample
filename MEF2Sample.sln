@@ -1,17 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF2Sample", "MEF2Sample\MEF2Sample.csproj", "{E5FC3CE7-DCA2-471A-A19D-17724134B75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF2Sample", "MEF2Sample\MEF2Sample.csproj", "{E5FC3CE7-DCA2-471A-A19D-17724134B75F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "AddinContract\Contract.csproj", "{9470507B-C96F-4355-B870-F39C5E57F1C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addin4", "Addin4\Addin4.csproj", "{6DA89B85-9439-4654-B306-5773F1C98978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInStandard", "AddInStandard\AddInStandard.csproj", "{1C6F2B67-056B-4067-801C-B66F5DA90CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddinStandard", "AddinStandard\AddinStandard.csproj", "{1C6F2B67-056B-4067-801C-B66F5DA90CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addin5", "AddIn5\Addin5.csproj", "{BC127B52-EF3A-4981-A0FD-DEA196093CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addin6", "Addin6\Addin6.csproj", "{BC127B52-EF3A-4981-A0FD-DEA196093CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EBA4FBC-96DC-4CD1-9A70-972F4D02D6B5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

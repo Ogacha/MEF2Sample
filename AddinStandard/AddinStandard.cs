@@ -1,11 +1,11 @@
 ﻿using AddinContract;
 using static System.Console;
 
-namespace AddInStandard
+namespace AddinStandard
 {
     public class AddinStandard : IAddinContract
     {
         public string AddinTitle => "アドイン .NET Standard";
-        public void DoWork() => WriteLine("これは、アドイン .NET Standard 2.0 が実行しています。");
+        public void DoWork() => WriteLine("これは、.NET Standard 2.0 ターゲットの DLL 内に書かれた処理です。");
     }
 }
